@@ -6,7 +6,7 @@ TARGET = example.x
 TEMPLATE = app
 
 
-SOURCES += Mainwindow.cc
+SOURCES += example.cc
 
 HEADERS  += MainWindow.h
 
