@@ -5,7 +5,7 @@ Simple ejemplo de uso de las libreria graficas de linux para crear un programa c
 
 1. gtk-3.0 + Glade.
 
-2. Qt5: necesitan correr primero qmake para generar el Makefile.
+2. Qt5 necesita generar un Makefile intermedio, pero el sistema resuelve internamente con Make. Igual ocurre con la libreria necesaria para Python.
 
 Jimmy Aguilar Mena
 
