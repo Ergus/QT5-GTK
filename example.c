@@ -1,4 +1,5 @@
 #include <gtk/gtk.h>
+
 typedef struct{
     GtkBuilder *builder;
     GtkWidget *window, *label, *edit, *button;
@@ -13,7 +14,7 @@ void my_show(GtkButton *button, Objects *in){
     }
 
 static gboolean wrapper(GtkWidget *edit, GdkEventKey *event, Objects *in){
-    // Conprueba que la tecla fue enter
+    // Comprueba que la tecla fue enter
     if (event->keyval == 65293)     
         my_show((GtkButton*)in->button,in);  //Llama a la otra funcion
     return FALSE; 
